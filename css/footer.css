@@ -33,8 +33,14 @@
   
  }
  .footer-top ul li {
-   padding: 20px;;
+   padding: 15px;;
   
  }
+  #page_top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    
+  }
 }
 
