@@ -1,0 +1,231 @@
+@media screen and (min-width: 1024px){
+  .l-header{
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+    opacity: 0.8;
+  }
+
+  .l-header .l-product-logo{
+    background: transparent;
+    display: block;
+    float: left;
+  }
+  .l-header .l-product-logo a{
+    height: 40px;
+    width: 60px;
+  }
+  .l-header .l-product-logo a img, .l-header .l-product-logo a svg {
+    height:auto;
+    width: 50px;
+    margin-top: 10px;
+  }
+  .l-header__nav-top{
+    display: block;
+    opacity: 1;
+    overflow:visible;
+  }
+  .l-header__nav-top .l-product-logo{
+    display: none;
+  }
+  .l-header__nav-top ul {
+    display: block;
+    float: right;
+    margin:10px;
+    position: relative;
+    top: 1px;
+
+  }
+  .l-header__nav-top li {
+    display: inline-block; /*leタグを横並びにする*/
+    margin: 0 1rem; /*liタグ間の空白*/
+  }
+  .l-header__nav-top li:first-child {
+    margin-left: 0; /*1つ目のliタグの左側には空白不要*/
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .p-grid__view-first div h1{
+    width: 80%;
+  }
+  .p-grid__view-first{
+    width: 100%;
+  }
+  .p-grid__view-first div{
+    width: 80%;
+  }
+  .p-grid__view-first img{
+    width: 100%;
+  }
+  .profile-section{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .profile-box{
+    flex-wrap: wrap;
+  }
+  .profile-box ul{
+    margin-left: 0;
+    width: 80%;
+  }
+  .profile-top img {
+    border-radius: 50%;
+    margin-bottom: 40px;
+  }
+  .profile-box ul li{
+    font-size: 15px;
+    letter-spacing: 0;
+    
+  
+  }
+  .profile-top h2{
+    font-size: 32px;
+  }
+
+}
+
+
+@media screen and (max-width: 1023px){
+  .works-top{
+    width: 100%;
+    
+  }
+  .works-top h2{
+    font-size: 32px;
+    padding-bottom: 50px;
+  }
+  .p-grid__list-item-floated{
+    flex-wrap: wrap;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .works1,.works2,.works3{
+    margin-bottom: 30px;
+    
+  }
+  .works1 img,.works2 img,.works3 img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .contact-section h2{
+    font-size: 32px;
+  }
+  
+  .form-input{
+    width: 80%;
+  }
+  .form-box{
+    width: 80%;
+  }
+  
+  .inputs,.mails{
+    width: 90%;
+    
+  
+  }
+  .texta{
+    width: 90%;
+  }
+  .texta{
+    margin-bottom: 20px;
+  }
+  .inputs,.mails{
+    margin-bottom: 20px;
+  }
+  
+  
+}
+ 
+
+
+
+/* skillcss */
+
+.skill-section{
+  background-color: rgb(225, 247, 247);
+  padding-bottom: 100px;
+}
+.skill-section h2{
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 4px;
+  padding: 50px 0;
+}
+.skill-box{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 50px 0;
+  border-radius: 20px;
+  
+}
+table{
+  width: 600px;
+  margin: 0 auto;
+}
+table th{
+  text-align: left;
+}
+
+table th, table td {
+  padding: 15px;
+  font-size: 20px;
+}
+table td{
+  padding-left: 40px;
+}
+@media screen and (max-width: 1023px){
+  .skill-box{
+    width: 80%;
+  }
+  table{
+    width: 80%;
+  }
+  .skill-section h2{
+    font-size: 32px;
+  }
+  .last td:last-child {
+    border-bottom: solid 1px #ccc;
+    width: 100%;
+  }
+  .th-r02 {
+    width: 80%;
+  }
+   th,th,
+   th,td {
+    border-bottom: none;
+    display: block;
+    width: 100%;
+    
+  }
+  table th{
+    text-align: center;
+    padding: 0 0 15px 0;
+  }
+  table td{
+    padding:0 0 15px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .footer-top ul li a{
+    font-size: 15px;
+   
+  }
+  .footer-top ul li {
+    padding: 15px;;
+   
+  }
+   #page_top {
+     position: fixed;
+     bottom: 10px;
+     right: 10px;
+     
+   }
+ }
+ 
