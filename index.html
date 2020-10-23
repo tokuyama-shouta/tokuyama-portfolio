@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <meta name="description" content="徳山翔太のポートフォリオサイトです。Webサイト制作、Webアプリ開発、自動化ツール開発のご相談・ご依頼はお問い合わせまで。">
+  <title>徳山 翔太 | PortFolio</title>
+</head>
+<body>
+  <header class="l-header fixed-nav">
+    <div class="l-header-inner">
+      <h1 class="l-product-logo">
+        <a href="/" target="_self">
+          <img src="img/soccer.jpg" alt="アイコン">
+        </a>
+      </h1>
+      <button class="nav-toggle-button outside" data-about-nav-toggle aria-label="ナビゲーション メニューの切り替え" id="nav-toggle-button">
+        <img alt="ナビゲーション メニューを開く"  class="menu-bars" src="img/menu.png" height="36" width="36">
+        <img alt="ナビゲーション メニューを閉じる"  class="menu-close" src="img/close.png" height="36" width="36">
+      </button>
+      <!-- スマホレイアウト↓ -->
+      <nav class="l-header__nav-top">
+        <h1 class="l-product-logo">
+          <a href="/" target="_self">
+            <img src="img/soccer.jpg" alt="アイコン">
+          </a>
+        </h1>
+        <ul>
+          <li><a href="#link1">Profile</a></li>
+          <li><a href="#link2">Skill</a></li>
+          <li><a href="#link3">Works</a></li>
+          <li><a href="#link4">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="black-bg" id="js-black-bg"></div>
+  </header>
+  <main>
+    <section>
+      <div class="p-grid__view-first">
+        <div>
+          <h1 class="animated bounce bounce-animation">Tokuyama Shouta</h1>
+          <h2 class="animated bounce bounce-animation">PortFolio</h2>
+          <a class="p-btn-round p-icon__arrow-next" id="btn" role="button" href="#">お問い合わせ</a>
+        </div>
+        <img src="img/first.jpg" alt="First View">
+      </div>
+    </section>
+    <section>
+      <div class="module-spacer--medium"></div>
+    </section>
+    <a name="link1"></a>
+    <section class="profile-section">
+      <div class="profile-top">
+        <h2>Profile</h2> 
+        <div class="profile-box" >
+          <img src="img/prf.jpg" alt="プロフィール画像" class="animation">
+          <ul class="animation">
+            <li>はじめまして。 徳山翔太（とくやましょうた)と申します。</li>
+            <li>趣味はサッカー、カラオケ、ライブ&フェス参戦、音楽観賞、</li>
+            <li>古着屋さん巡り、カフェ巡り、ゲーム、アニメ観賞です。</li>
+            <li>前職は大阪の企業にて６年ほど務めておりました。</li>
+            <li>現在は東京でアルバイトをしながらプログラミングを学習しています！</li>
+            <li>プログラミングをはじめたのは、自分が携わったサービスで</li>
+            <li>世の中の人々に貢献したいと思ったからです！</li>
+            <li>その中でも、フロントエンドエンジニアを選択したのは、</li>
+            <li>私の書いたコードが目に見えて動作した時に衝撃を受け、</li>
+            <li>プログラミングが楽しくなり、仕事にしたいと思いました！</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="module-spacer--medium"></div>
+    </section>
+    <a name="link2"></a>
+    <section class="skill-section">
+      <h2>Skill</h2>
+      <div class="skill-box animation">
+        <table>
+          <tr>
+            <th>学習技術</th>
+            <td>HTML5  CSS3  JavaScript  TypeScript</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>jQuery  React  Redux </td>
+          </tr>
+          <tr>
+            <th>ツール</th>
+            <td>Git  GitHub  Firebase  slack</td>
+          </tr>
+          <tr>
+            <th>OS</th>
+            <td>MacOS</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <a name="link3"></a>
+    <section class="works-section">
+      <div class="works-top" name="link3">
+        <h2>Works</h2>
+        
+        <article class="p-grid__list-item-floated animation">
+          <div class="works1">
+            <img class="p-media__thumb" src="img/port.png" />
+            <h3>my port folio </h3>
+            <h4>使用技術</h4>
+            <p>HTML CSS SCSS</p>
+            <p>JavaScript jQuery</p>
+            <p>Filebase Hosting</p>
+          </div>
+          <div class="works2">
+            <img class="p-media__thumb" src="img/pixabay.png" />
+            <h3>画像検索サイト</h3>
+            <h4>使用技術</h4>
+            <p>css semantic-ui</p>
+            <p>JavaScript React</p>
+            <p>WebApi pixabay</p>
+            <p>Filebase Hosting</p>
+          </div>
+          <div class="works3">
+            <img class="p-media__thumb" src="img/first-view.jpg" />
+            <h3>画像検索サイト</h3>
+            <h4>使用技術</h4>
+            <p>css semantic-ui</p>
+            <p>JavaScript React</p>
+            <p>WebApi : pixabay</p>
+            <p>Filebase Hosting</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <a name="link4"></a>
+    <section class="contact-section">
+      <h2>Contact</h2>
+      <form action="confirm.php" method="post" class="form-input animation" name="link4">
+        <div class="form-box">
+          <div class="input-box">
+            <label for="rendou">お名前</label><br>
+            <input for="rendou" type="text" name="yourname" placeholder="山田太郎" class="inputs">
+
+          </div>
+          <div class="input-box">
+            <label for="mail">メールアドレス</label><br>
+            <input id="mail" type="email" name="mail" placeholder="メールアドレス" class="mails">
+
+          </div>
+          <div class="input-box">
+            <label for="comment">お問い合わせ</label><br>
+            <textarea id="comment" name="comment" placeholder="お問い合わせ内容を記入してください" class="texta"></textarea>
+
+          </div>
+          <input type="submit" value="送信する" class="input-btn">
+        </div>
+      </form>
+
+    </section>
+  
+  </main>
+  <footer class="footer">
+    <div class="footer-top">
+      <ul>
+        <li><a href="/link1/" target="_self">Profile</a></li>
+        <li><a href="/link3/" target="_self">Skill</a></li>
+        <li><a href="/link2/" target="_self">Works</a></li>
+        <li><a href="/link4/" target="_self">Contact</a></li>
+      </ul>
+    </div>
+  </footer>  
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <script src="js/animate.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>
