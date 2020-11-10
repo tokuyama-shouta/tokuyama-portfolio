@@ -21,7 +21,14 @@
   text-overflow: ellipsis;/*表示テキストのサイズを更に狭める*/
   vertical-align: top;
   white-space: nowrap;/*自動改行しない*/
+  margin-top: 15px;
 }
+.l-header .l-product-logo a {
+  font-size: 20px;
+  text-decoration: none;
+  color:black;
+}
+
 .l-header.fixed-nav {
   overflow: visible; /*ボックスからはみ出して表示される*/
   top: 0;

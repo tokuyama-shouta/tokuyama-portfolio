@@ -120,6 +120,43 @@
 }
 
 
+/* skillcss */
+
+.skill-section{
+  background-color: rgb(225, 247, 247);
+  padding-bottom: 100px;
+}
+.skill-section h2{
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 4px;
+  padding: 50px 0;
+}
+.skill-box{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 50px 0;
+  border-radius: 20px;
+  
+}
+table{
+  width: 600px;
+  margin: 0 auto;
+}
+table th{
+  text-align: left;
+}
+
+table th, table td {
+  padding: 15px;
+  font-size: 20px;
+}
+table td{
+  padding-left: 40px;
+}
+
+
 
 /* ワークスcss */
 .works-section{
@@ -172,16 +209,16 @@
   padding: 10px;
   font-size: 15px;
   margin-left: 15px;
+  
 }
+
 .works1 a,.works2 a,.works3 a {
-  padding: 10px;
-  font-size: 15px;
-  margin-left: 15px;
-  font-weight: bold;
-  color:tomato;
-
+  cursor: pointer;
 }
 
+#works-box{
+  margin-left: 25px; 
+}
 
 
 
@@ -198,58 +235,31 @@
   letter-spacing: 4px;
   padding: 50px 0;
 }
-.form-input{
-  width: 1200px;
-  margin: 0 auto;
 
+.contact-section p{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
 }
-.form-box{
-  padding: 30px;
-  width: 800px;
-  margin: 0 auto;
-  border: 1px solid ;
-  border-radius: 20px;
-  background: #fff;
+
+.contact-box{
+  margin-top: 100px;
   text-align: center;
 }
-
-.inputs,.mails{
-  width: 600px;
-  height: 40px;
-  margin-bottom: 30px;
-  margin-top: 15px;
-  
-
-}
-.texta{
-  width: 600px;
-  height: 150px;
-
-  margin-bottom: 80px;
-  margin-top: 15px;
-}
-
-.input-btn{
+.contact-box img {
   width: 250px;
-  height: 40px;
-  margin-bottom: 30px;
-  background: rgb(247, 145, 145);
-  border: 1px solid #fff;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-  color: #fff;
+  height: 250px;
+  border-radius: 50%;
+  margin: 20px;
   cursor: pointer;
-  
+  animation: key1 .3s ease infinite alternate;
 }
+ 
 
-.input-box{
-  padding-bottom: 20px;
-  text-align: center;
+@keyframes key1{
+  0% {transform: translateY(0px);}
+  100% {transform: translateY(-5px);}
 }
-
-
 
 
 
